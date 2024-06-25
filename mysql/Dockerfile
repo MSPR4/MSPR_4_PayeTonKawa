@@ -7,5 +7,5 @@ ENV MYSQL_DATABASE=yourdatabase
 ENV MYSQL_USER=youruser
 ENV MYSQL_PASSWORD=yourpassword
 
-# Expose the MySQL port
+# Expose the MySQL pot
 EXPOSE 3306
