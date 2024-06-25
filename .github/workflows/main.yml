@@ -2,9 +2,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ feature/Samsam/Orders ]
+    branches: [ feature/SYA/API/Commande ]
   pull_request:
-    branches: [ feature/Samsam/Orders ]
+    branches: [ feature/SYA/API/Commande ]
 
 jobs:
   build:
