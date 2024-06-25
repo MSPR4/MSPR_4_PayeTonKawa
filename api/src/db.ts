@@ -1,7 +1,7 @@
 // src/db.ts
 import mysql from 'mysql2/promise';
 
-// Create the connection to database
+// Create the connection to database swag
 const db = mysql.createPool({
   host: 'localhost',
   user: 'youruser',
