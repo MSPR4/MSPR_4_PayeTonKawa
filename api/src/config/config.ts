@@ -1,4 +1,7 @@
 export const config = {
-    jwtSecret: process.env.JWT_SECRET || 'your_secret_key'
-  };
-  
+  jwtSecret: 'your_jwt_secret_here',  // Remplacez par votre secret JWT existant
+  rabbitmq: {
+    url: 'amqp://localhost', // URL de connexion RabbitMQ
+  },
+  // autres configurations
+};

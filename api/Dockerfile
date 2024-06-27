@@ -1,5 +1,5 @@
 # Use Node.js image
-FROM node:18
+FROM node:20
 
 # Set the working directory
 WORKDIR /usr/src/app
@@ -8,6 +8,9 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # Install dependencies
+RUN npm install jsonwebtoken express-jwt
+RUN npm install @types/jsonwebtoken @types/express-jwt --save-dev
+RUN npm install -g typescript
 RUN npm install
 
 # Copy the rest of the application code
